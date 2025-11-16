@@ -1,0 +1,211 @@
+# -------------------------------------------------------------------------------------------------------------------- #
+# META
+# -------------------------------------------------------------------------------------------------------------------- #
+
+manifest:
+  short_name:
+    en: 'siteName'
+    ru: 'siteName'
+  color:
+    background: '#f8f9fa'
+    theme: '#f8f9fa'
+  categories:
+    - 'books'
+    - 'education'
+    - 'utilities'
+
+ui:
+  color:
+    theme:
+      light: '#f8f9fa'
+      dark: ''
+
+# -------------------------------------------------------------------------------------------------------------------- #
+# SEO
+# -------------------------------------------------------------------------------------------------------------------- #
+
+author:
+  name: 'Kai Kimera'
+  email: 'mail@kaikim.ru'
+
+images:
+  - 'favicon-512.png'
+
+organization:
+  logo: 'img/logo.min.svg'
+  address:
+    city: 'Moscow'
+    region: 'Moscow Region'
+    country: 'Russia'
+  contacts:
+    type: 'customer service'
+    email: 'mail@kaikim.ru'
+    telephone: '+7 (000) 000-0000'
+  foundingDate: '2020'
+  sameAs:
+    - ''
+
+# -------------------------------------------------------------------------------------------------------------------- #
+# API
+# -------------------------------------------------------------------------------------------------------------------- #
+
+api:
+  user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
+  github:
+    url: 'https://api.github.com'
+    user: 'ghapibot'
+    email: ''
+    token: ''
+  gitlab:
+    url: 'https://gitlab.com/api/v4'
+    user: 'glapibot'
+    email: ''
+    token: ''
+
+# -------------------------------------------------------------------------------------------------------------------- #
+# BREADCRUMB
+# -------------------------------------------------------------------------------------------------------------------- #
+
+breadcrumb:
+  divider: '/'
+  icon:
+    name: 'fas fa-home'
+
+# -------------------------------------------------------------------------------------------------------------------- #
+# SEARCH
+# -------------------------------------------------------------------------------------------------------------------- #
+
+search:
+  internal:
+    enabled: true
+    content: [ 'articles', 'faq' ]
+  bing:
+    enabled: false
+  google:
+    enabled: true
+  yandex:
+    enabled: true
+
+# -------------------------------------------------------------------------------------------------------------------- #
+# RSS
+# -------------------------------------------------------------------------------------------------------------------- #
+
+rss:
+  content: [ 'articles', 'faq' ]
+
+# -------------------------------------------------------------------------------------------------------------------- #
+# SECTION
+# -------------------------------------------------------------------------------------------------------------------- #
+
+section:
+  home:
+    content: [ 'articles' ]
+    grid:
+      cols:
+        sm: 1
+        md: 1
+        lg: 1
+        xl: 2
+        xxl: 2
+  archive:
+    enabled: true
+    content: [ 'articles' ]
+  articles:
+    grid:
+      cols:
+        sm: 1
+        md: 1
+        lg: 1
+        xl: 2
+        xxl: 2
+    cover:
+      size: '6rem'
+      icon:
+        name: 'far fa-file-lines'
+        size: '2x'
+  faq:
+    grid:
+      cols:
+        sm: 1
+        md: 1
+        lg: 1
+        xl: 2
+        xxl: 2
+    cover:
+      size: '6rem'
+      icon:
+        name: 'far fa-circle-question'
+        size: '2x'
+    file: '[0-9][0-9].md'
+  commands:
+    grid:
+      cols:
+        sm: 1
+        md: 1
+        lg: 1
+        xl: 2
+        xxl: 2
+    cover:
+      size: '6rem'
+      icon:
+        name: 'fas fa-terminal'
+        size: '2x'
+    file: '[0-9][0-9].{bash,bat,cmd,ps1}'
+  authors:
+    grid:
+      cols:
+        sm: 1
+        md: 1
+        lg: 1
+        xl: 2
+        xxl: 2
+    cover:
+      size: '6rem'
+      avatar:
+        size: '128'
+  categories:
+    grid:
+      cols:
+        sm: 1
+        md: 1
+        lg: 1
+        xl: 2
+        xxl: 2
+    cover:
+      size: '6rem'
+      icon:
+        name: 'far fa-folder-open'
+        size: '2x'
+
+# -------------------------------------------------------------------------------------------------------------------- #
+# PAGE
+# -------------------------------------------------------------------------------------------------------------------- #
+
+page:
+  tabs:
+    changelog:
+      enabled: true
+    info:
+      enabled: true
+      categories:
+        enabled: true
+      tags:
+        enabled: true
+      authors:
+        enabled: true
+      related:
+        enabled: true
+      meta:
+        enabled: true
+      stats:
+        enabled: true
+    share:
+      enabled: true
+      social:
+        enabled: true
+      qrcode:
+        enabled: true
+      url:
+        enabled: true
+      file:
+        enabled: true
