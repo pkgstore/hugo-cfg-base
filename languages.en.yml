@@ -1,0 +1,8 @@
+title: 'Site Title'
+contentDir: 'content/en'
+languageName: 'English'
+languageCode: 'en-US'
+weight: 20
+params:
+  description: 'Site description.'
+  languageLang: 'en'

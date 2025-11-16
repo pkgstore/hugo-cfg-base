@@ -1,0 +1,4 @@
+'application/opensearchdescription+xml':
+  suffixes: [ 'xml' ]
+'text/plain':
+  suffixes: [ 'txt', 'ps1', 'bat', 'cmd', 'ini', 'cfg', 'sh' ]

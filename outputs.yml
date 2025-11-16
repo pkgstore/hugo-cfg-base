@@ -1,0 +1,2 @@
+home: [ 'html', 'rss', 'openSearch', 'manifest', 'search' ]
+page: [ 'html', 'json' ]

@@ -1,0 +1,4 @@
+page:
+  articles: '/:year/:month/:slug/'
+  faq: '/:year/:month/:slug/'
+  commands: '/:year/:month/:slug/'

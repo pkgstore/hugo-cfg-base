@@ -1,0 +1,8 @@
+title: 'Site Title'
+contentDir: 'content/ru'
+languageName: 'Русский'
+languageCode: 'ru-RU'
+weight: 10
+params:
+  description: 'Site description.'
+  languageLang: 'ru'
